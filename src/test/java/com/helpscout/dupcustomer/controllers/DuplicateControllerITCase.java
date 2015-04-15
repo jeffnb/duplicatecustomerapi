@@ -23,7 +23,7 @@ import static org.hamcrest.CoreMatchers.hasItems;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Created by jeff on 4/15/15.
+ * Tests the duplicate controller endpoints
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = DupCustomerApp.class)

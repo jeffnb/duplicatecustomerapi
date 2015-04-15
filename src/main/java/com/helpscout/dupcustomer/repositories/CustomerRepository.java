@@ -8,10 +8,9 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 import java.util.List;
-import java.util.Map;
 
 /**
- * Created by jeff on 4/13/15.
+ * Main point of entry into db.  Uses spring data aka hibernate
  */
 @RepositoryRestResource
 public interface CustomerRepository extends PagingAndSortingRepository<Customer, Long> {

@@ -35,6 +35,7 @@ public class Customer {
 
   public Customer(){}
 
+  //Special constructor used for similarity generation
   public Customer(String lastName, String phone){
     this.lastName = lastName;
     this.phone = phone;

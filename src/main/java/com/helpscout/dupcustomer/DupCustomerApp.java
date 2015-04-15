@@ -7,7 +7,7 @@ import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration;
 
 /**
- * Created by jeff on 4/13/15.
+ * Main Project entry point
  */
 @SpringBootApplication
 @EnableAutoConfiguration

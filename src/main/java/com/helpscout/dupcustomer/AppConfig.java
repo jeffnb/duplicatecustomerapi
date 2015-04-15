@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 import static com.fasterxml.jackson.databind.PropertyNamingStrategy.CAMEL_CASE_TO_LOWER_CASE_WITH_UNDERSCORES;
 
 /**
- * Created by jeff on 4/13/15.
+ * Configuration for the object mapper rest controllers are using
  */
 @Configuration
 public class AppConfig {

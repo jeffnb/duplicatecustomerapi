@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by jeff on 4/14/15.
+ * Duplicates searching controller
  */
 @RestController
 @RequestMapping("duplicates/")
@@ -52,6 +52,12 @@ public class DuplicateController {
     return dupMap;
   }
 
+  /**
+   * This is a rudimentary search in the sql for any customers that might be similar based on
+   * last name and phone number.  This should show people who have the same last name but different
+   * first names which is most commonly changed (Will, Bill, William)
+   * @return A map where the key is the duplicate information and the value are customers who match
+   */
   @RequestMapping(value = "last-name-phone", method = RequestMethod.GET)
   public Map<String, List<Customer>> duplicateNamePhone(){
     Map<String, List<Customer>> dupMap = new HashMap<String, List<Customer>>();
