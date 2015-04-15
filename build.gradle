@@ -28,6 +28,8 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-data-rest")
     compile("org.springframework.boot:spring-boot-starter-data-jpa")
     compile('org.springframework.boot:spring-boot-starter-test')
+    compile(group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version:'2.4.4')
+    compile(group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version:'2.4.4')
     compile("com.h2database:h2")
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("io.codearte.jfairy:jfairy:0.4.0")

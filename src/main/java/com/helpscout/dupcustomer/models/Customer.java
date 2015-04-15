@@ -35,6 +35,11 @@ public class Customer {
 
   public Customer(){}
 
+  public Customer(String lastName, String phone){
+    this.lastName = lastName;
+    this.phone = phone;
+  }
+
   public Customer(String firstName, String lastName, String phone, String email) {
     this.firstName = firstName;
     this.lastName = lastName;

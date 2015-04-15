@@ -32,7 +32,9 @@ public class CustomerPopulator {
 
   @PostConstruct
   public void populateDatabase(){
-    customerRepository.save(createFakeCustomers(100));
+    List<Customer> fakeCustomers = createDuplicateCustomers();
+    fakeCustomers.addAll(createFakeCustomers(10000));
+    customerRepository.save(fakeCustomers);
   }
 
   /**
@@ -48,6 +50,15 @@ public class CustomerPopulator {
       customers.add(new Customer(p.firstName(), p.lastName(), generatePhoneNumber(),
                                  p.email()));
     }
+
+    return customers;
+  }
+
+  public List<Customer> createDuplicateCustomers(){
+    List<Customer> customers = new ArrayList<Customer>();
+
+    customers.add(new Customer("Frodo", "Baggins", "123-456-7890", "baggins@bagend.com"));
+    customers.add(new Customer("Bilbo", "Baggins", "123-456-7890", "baggins@bagend.com"));
 
     return customers;
   }
