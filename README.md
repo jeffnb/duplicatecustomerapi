@@ -7,6 +7,9 @@ Extremely simple api to manipulate customers and then find duplicates.
 2. `gradle build`
 3. `java -jar build/libs/dupcustomer-0.1.0.jar`
 
+## Run Tests ##
+`gradle test`
+
 ## Endpoints ##
 * /customers (GET) - Lists the customers in the system paginated
 * /customers (POST) - Creates a new customer
