@@ -9,6 +9,8 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 import java.util.List;
 
+import javax.persistence.EntityListeners;
+
 /**
  * Main point of entry into db.  Uses spring data aka hibernate
  */

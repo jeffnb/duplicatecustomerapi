@@ -3,6 +3,7 @@ package com.helpscout.dupcustomer.controllers;
 import com.helpscout.dupcustomer.models.Customer;
 import com.helpscout.dupcustomer.repositories.CustomerRepository;
 
+import org.apache.solr.client.solrj.SolrServer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

@@ -1,0 +1,118 @@
+0    [main] INFO  org.eclipse.jetty.server.Server  – jetty-8.1.10.v20130312
+22   [main] INFO  org.eclipse.jetty.deploy.providers.ScanningAppProvider  – Deployment monitor /Users/jeff/Documents/workspace/dupcustomer/solr/server/contexts at interval 0
+26   [main] INFO  org.eclipse.jetty.deploy.DeploymentManager  – Deployable added: /Users/jeff/Documents/workspace/dupcustomer/solr/server/contexts/solr-jetty-context.xml
+119  [main] INFO  org.eclipse.jetty.webapp.WebInfConfiguration  – Extract jar:file:/Users/jeff/Documents/workspace/dupcustomer/solr/server/webapps/solr.war!/ to /Users/jeff/Documents/workspace/dupcustomer/solr/server/solr-webapp/webapp
+1599 [main] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor  – NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+1650 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init()WebAppClassLoader=710239027@2a556333
+1661 [main] INFO  org.apache.solr.core.SolrResourceLoader  – JNDI not configured for solr (NoInitialContextEx)
+1661 [main] INFO  org.apache.solr.core.SolrResourceLoader  – using system property solr.solr.home: /Users/jeff/Documents/workspace/dupcustomer/solr/server/solr
+1662 [main] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/'
+1801 [main] INFO  org.apache.solr.core.ConfigSolr  – Loading container configuration from /Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/solr.xml
+1861 [main] INFO  org.apache.solr.core.CoresLocator  – Config-defined core root directory: /Users/jeff/Documents/workspace/dupcustomer/solr/server/solr
+1867 [main] INFO  org.apache.solr.core.CoreContainer  – New CoreContainer 850551034
+1868 [main] INFO  org.apache.solr.core.CoreContainer  – Loading cores into CoreContainer [instanceDir=/Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/]
+1877 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting socketTimeout to: 600000
+1878 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting urlScheme to: null
+1881 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting connTimeout to: 60000
+1883 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxConnectionsPerHost to: 20
+1883 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxConnections to: 10000
+1883 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting corePoolSize to: 0
+1883 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maximumPoolSize to: 2147483647
+1883 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxThreadIdleTime to: 5
+1884 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting sizeOfQueue to: -1
+1884 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting fairnessPolicy to: false
+1884 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting useRetries to: false
+1965 [main] INFO  org.apache.solr.update.UpdateShardHandler  – Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+1967 [main] INFO  org.apache.solr.logging.LogWatcher  – SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+1968 [main] INFO  org.apache.solr.logging.LogWatcher  – Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+1970 [main] INFO  org.apache.solr.core.CoreContainer  – Host Name: 
+2630 [main] INFO  org.apache.solr.core.CoresLocator  – Looking for core definitions underneath /Users/jeff/Documents/workspace/dupcustomer/solr/server/solr
+2643 [main] INFO  org.apache.solr.core.CoresLocator  – Found core basic in /Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/
+2643 [main] INFO  org.apache.solr.core.CoresLocator  – Found 1 core definitions
+2644 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/'
+2676 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrConfig  – current version of requestparams : -1
+2699 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.update.SolrIndexConfig  – IndexWriter infoStream solr logging is enabled
+2703 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: 5.0.0
+2758 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
+2765 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from /Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/conf/schema.xml
+2786 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – [basic] Schema name=basic
+2938 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – unique key field: id
+3018 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.FileExchangeRateProvider  – Reloading exchange rates from file currency.xml
+3022 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.FileExchangeRateProvider  – Reloading exchange rates from file currency.xml
+3027 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CoreContainer  – Creating SolrCore 'basic' using configuration from instancedir /Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/
+3040 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – solr.NRTCachingDirectoryFactory
+3044 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – [basic] Opening new SolrCore at /Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/, dataDir=/Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/data/
+3046 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.JmxMonitoredMap  – No JMX servers found, not exposing Solr information with JMX.
+3061 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/data
+3063 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – New index directory detected: old=null new=/Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/data/index/
+3063 [coreLoadExecutor-5-thread-1] WARN  org.apache.solr.core.SolrCore  – [basic] Solr index directory '/Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/data/index' doesn't exist. Creating new index...
+3072 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/data/index
+3120 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4eab53b3; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+3121 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
+3176 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – no updateRequestProcessorChain defined as default, creating implicit default
+3186 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update: org.apache.solr.handler.UpdateRequestHandler
+3186 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/json: org.apache.solr.handler.UpdateRequestHandler
+3186 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+3186 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+3187 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /config: org.apache.solr.handler.SolrConfigHandler
+3187 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /schema: org.apache.solr.handler.SchemaHandler
+3196 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /replication: org.apache.solr.handler.ReplicationHandler
+3197 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /get: org.apache.solr.handler.RealTimeGetHandler
+3198 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/luke: org.apache.solr.handler.admin.LukeRequestHandler
+3199 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/system: org.apache.solr.handler.admin.SystemInfoHandler
+3200 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/mbeans: org.apache.solr.handler.admin.SolrInfoMBeanHandler
+3200 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/plugins: org.apache.solr.handler.admin.PluginInfoHandler
+3200 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/threads: org.apache.solr.handler.admin.ThreadDumpHandler
+3201 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/properties: org.apache.solr.handler.admin.PropertiesRequestHandler
+3201 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/logging: org.apache.solr.handler.admin.LoggingHandler
+3202 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/file: org.apache.solr.handler.admin.ShowFileRequestHandler
+3202 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/ping: org.apache.solr.handler.PingRequestHandler
+3203 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /select: solr.SearchHandler
+3204 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /query: solr.SearchHandler
+3204 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /export: solr.SearchHandler
+3204 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+3204 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/field: solr.FieldAnalysisRequestHandler
+3204 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+3205 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/document: solr.DocumentAnalysisRequestHandler
+3205 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /debug/dump: solr.DumpRequestHandler
+3206 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.SearchHandler
+3206 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /terms: solr.SearchHandler
+3222 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+3224 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+3224 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+3225 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+3227 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+3242 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – Hard AutoCommit: if uncommited for 15000ms; 
+3243 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – Soft AutoCommit: disabled
+3249 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4eab53b3; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+3250 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
+3258 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  – Opening Searcher@6cc1cfa[basic] main
+3262 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResourceStorage  – File-based storage initialized to use dir: /Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/conf
+3262 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.RestManager  – Initializing RestManager with initArgs: {storageDir=/Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/conf}
+3269 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResourceStorage  – Reading _rest_managed.json using file:dir=/Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/conf
+3272 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResourceStorage  – Loaded LinkedHashMap at path _rest_managed.json using file:dir=/Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/conf
+3272 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResource  – Loaded initArgs {} for /rest/managed
+3272 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.RestManager  – Initializing 0 registered ManagedResources
+3277 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.ReplicationHandler  – Commits will be reserved for  10000
+3278 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  – [basic] Registered new searcher Searcher@6cc1cfa[basic] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+3279 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CoreContainer  – registering core: basic
+3280 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – user.dir=/Users/jeff/Documents/workspace/dupcustomer/solr/server
+3280 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init() done
+3297 [main] INFO  org.eclipse.jetty.server.AbstractConnector  – Started SocketConnector@0.0.0.0:8983
+8480 [ShutdownMonitor] INFO  org.eclipse.jetty.server.Server  – Graceful shutdown SocketConnector@0.0.0.0:8983
+8481 [ShutdownMonitor] INFO  org.eclipse.jetty.server.Server  – Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/Users/jeff/Documents/workspace/dupcustomer/solr/server/solr-webapp/webapp/},/Users/jeff/Documents/workspace/dupcustomer/solr/server/webapps/solr.war
+9486 [ShutdownMonitor] INFO  org.apache.solr.core.CoreContainer  – Shutting down CoreContainer instance=850551034
+9487 [ShutdownMonitor] INFO  org.apache.solr.core.SolrCore  – [basic]  CLOSING SolrCore org.apache.solr.core.SolrCore@2c627046
+9488 [ShutdownMonitor] INFO  org.apache.solr.update.UpdateHandler  – closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+9488 [ShutdownMonitor] INFO  org.apache.solr.update.SolrCoreState  – Closing SolrCoreState
+9488 [ShutdownMonitor] INFO  org.apache.solr.update.DefaultSolrCoreState  – SolrCoreState ref count has reached 0 - closing IndexWriter
+9489 [ShutdownMonitor] INFO  org.apache.solr.update.DefaultSolrCoreState  – closing IndexWriter with IndexWriterCloser
+9492 [ShutdownMonitor] INFO  org.apache.solr.core.SolrCore  – [basic] Closing main searcher on request.
+9493 [ShutdownMonitor] INFO  org.apache.solr.core.CachingDirectoryFactory  – Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+9493 [ShutdownMonitor] INFO  org.apache.solr.core.CachingDirectoryFactory  – looking to close /Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/data/index [CachedDir<<refCount=0;path=/Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/data/index;done=false>>]
+9494 [ShutdownMonitor] INFO  org.apache.solr.core.CachingDirectoryFactory  – Closing directory: /Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/data/index
+9494 [ShutdownMonitor] INFO  org.apache.solr.core.CachingDirectoryFactory  – looking to close /Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/data [CachedDir<<refCount=0;path=/Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/data;done=false>>]
+9494 [ShutdownMonitor] INFO  org.apache.solr.core.CachingDirectoryFactory  – Closing directory: /Users/jeff/Documents/workspace/dupcustomer/solr/server/solr/basic/data
+9495 [ShutdownMonitor] INFO  org.eclipse.jetty.server.handler.ContextHandler  – stopped o.e.j.w.WebAppContext{/solr,file:/Users/jeff/Documents/workspace/dupcustomer/solr/server/solr-webapp/webapp/},/Users/jeff/Documents/workspace/dupcustomer/solr/server/webapps/solr.war

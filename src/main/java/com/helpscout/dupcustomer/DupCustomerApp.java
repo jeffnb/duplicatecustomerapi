@@ -3,13 +3,14 @@ package com.helpscout.dupcustomer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.solr.SolrAutoConfiguration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration;
 
 /**
  * Main Project entry point
  */
-@SpringBootApplication
+@SpringBootApplication(exclude = {SolrAutoConfiguration.class})
 @EnableAutoConfiguration
 public class DupCustomerApp extends RepositoryRestMvcConfiguration {
   public static void main(String[] args) throws InterruptedException {
